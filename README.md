@@ -29,16 +29,8 @@ This Python application validates phone numbers and retrieves Caller IDs using t
    pip install -r requirements.txt
    ```
 5. Set up your OpenCNAM credentials as environment variables:
-   - On Unix-like systems, you can add these lines to your `.bashrc` or `.bash_profile`:
-     ```
-     export OPENCNAM_ACCOUNT_SID=your_account_sid_here
-     export OPENCNAM_AUTH_TOKEN=your_auth_token_here
-     ```
-   - On Windows, you can set these through the System Properties > Advanced > Environment Variables dialog, or use the `setx` command:
-     ```
-     setx OPENCNAM_ACCOUNT_SID your_account_sid_here
-     setx OPENCNAM_AUTH_TOKEN your_auth_token_here
-     ```
+
+   - See .env.sample for configuration of variables.
 
 ## Usage
 
